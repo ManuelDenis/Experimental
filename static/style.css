@@ -1,0 +1,14 @@
+body {
+    font-family: Montserrat, sans-serif;
+    background: aliceblue;
+    letter-spacing: -1px;
+}
+button {
+    border-radius: 7px;
+    background: orangered;
+    color: aliceblue;
+    font-family: Montserrat, sans-serif;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    margin: 10px 0 10px 0;
+}

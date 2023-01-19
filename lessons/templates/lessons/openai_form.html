@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+<div class="row">
+<div class="col-lg-6 p-3 py-5">
+    <h1>Care este intrebarea ta?</h1>
+<form method="POST">
+{% csrf_token %}
+<label></label>
+<input type="text" class="form-control" name="user_input" />
+<button class="shadow" type="submit">Send</button>
+</form>
+
+{% if response %}
+<h2>Chatbot response:</h2>
+<p>{{ message }}</p>
+{% endif %}
+</div>
+
+
+</div>
+
+
+
+
+{% endblock %}

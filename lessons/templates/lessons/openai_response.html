@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+    <div class="row>">
+        <div class="col-lg-6">
+            <h2>{{ question|capfirst }}</h2>
+            <p>{{ message|linebreaks }}</p>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
+

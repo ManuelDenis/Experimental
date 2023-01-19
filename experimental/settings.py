@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.github',
     'users.apps.UsersConfig',
     'lessons.apps.LessonsConfig',
+    'post.apps.PostConfig',
 ]
 
 MIDDLEWARE = [

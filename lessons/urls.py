@@ -1,7 +1,7 @@
 from django.urls import path
 
-from lessons.views import LessonView
+from lessons import views
 
 urlpatterns = [
-    path('lesson1/', LessonView.as_view(), name='lesson1'),
+    path('', views.openai_view, name='chatbot'),
 ]
