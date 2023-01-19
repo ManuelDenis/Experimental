@@ -5,7 +5,7 @@ import openai
 def openai_view(request):
     if request.method == 'POST':
         user_input = request.POST['user_input']
-        openai.api_key = "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"
+        openai.api_key = "*********************"
         completions = openai.Completion.create(
             engine="text-davinci-003",
             prompt=f"{user_input}",
